@@ -1,6 +1,20 @@
 # RLang-Interpreter
 
-This is an interpreter in python for self-made language: RLang.
+This is an interpreter in python for self-made language: RLang. The user is provided a user-friendly interface to interact with which is built using Flask.
+The interface allows user to enter the input and see its output, the guidelines to use the custom language is also mentioned in the website. The web application is deployed on Docker to package the dependancies used, can be deployed in any devoce and accessed by any user.
+
+## DEMO:
+
+![rlang-1](https://user-images.githubusercontent.com/107244393/210112156-e9b823e6-1fd2-42ce-8c9d-e6d0ab6696be.png)
+
+If the given input is correct:
+
+![rlang-2](https://user-images.githubusercontent.com/107244393/210112174-3e2ad329-b74d-454f-a746-136237b8def1.png)
+
+If the given input has some error:
+
+![rlang-3](https://user-images.githubusercontent.com/107244393/210112185-c0267957-4f7f-4f90-843b-451bb19a0d9a.png)
+
 
 This interpreter includes following phases:
 
@@ -45,11 +59,16 @@ visited and operation is performed
 20. Else res.error=error
 21. Print res.data,res.error
 
+### Flask-Application
+
+Flask web application prompts user to enter an input using POST and GET API methods which are then taken into consideration and the user is directed to the page displaying either an error or the result, given the input.
+
+The templates directory contains the HTML files which the user is redirected to.
 ### Docker Deployment
 To run the code files through docker follow the given steps:
 > docker build -t <image_name> <path>
 
-> docker run -it <image_name>
+> docker run -p 5000:5000 <image_name>
 
 The interactive terminal will be prompted to user where they can give an input following the RLang Syntax and see the outputs.
 
