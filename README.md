@@ -5,16 +5,15 @@ The interface allows user to enter the input and see its output, the guidelines 
 
 ## DEMO:
 
-![rlang-1](https://user-images.githubusercontent.com/107244393/210112156-e9b823e6-1fd2-42ce-8c9d-e6d0ab6696be.png)
+![rlang-1](https://user-images.githubusercontent.com/107244393/210129263-08cddc1b-09c7-4ee3-a795-ac453d182bc5.png)
 
 If the given input is correct:
 
-![rlang-2](https://user-images.githubusercontent.com/107244393/210112174-3e2ad329-b74d-454f-a746-136237b8def1.png)
+![rlang-2](https://user-images.githubusercontent.com/107244393/210129272-6fdb8c62-2b86-4866-89ec-95d2c1167380.png)
 
 If the given input has some error:
 
-![rlang-3](https://user-images.githubusercontent.com/107244393/210112185-c0267957-4f7f-4f90-843b-451bb19a0d9a.png)
-
+![rlang-3](https://user-images.githubusercontent.com/107244393/210129287-058ad4b3-090f-46c5-9d5e-5ec54f138322.png)
 
 This interpreter includes following phases:
 
